@@ -1,0 +1,16 @@
+name: ServerChatMuter
+main: me.tim.chatmuter.ServerChatMuter
+version: 4.0.0
+commands:
+  mutechat:
+    description: Toggles chat being muted.
+    permission: chatmuter.cmd.mutechat
+    aliases: ['mc', 'chatmute']
+  chatmuted:
+    description: Checks if the chat is muted or not.
+    permission: chatmuter.cmd.chatmuted
+    aliases: ['cm']
+  showchatattempts:
+    description: Toggles visiblity of messsages that are blocked during a mute.
+    permission: chatmuter.cmd.showchatattempts
+    aliases: ['sca']
